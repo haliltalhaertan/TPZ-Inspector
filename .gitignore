@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build & TypeScript outputs
+web/dist/
+web/tsconfig.tsbuildinfo
+web/src_backup_*/
+dist_release/
+
+# Python & runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.tmp_decompile/
+*.log
+
+# SAP Transport Archives (never commit real customer .tpz exports!)
+*.tpz
+*.tpt
+*.dlt
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
